@@ -1,0 +1,40 @@
+table {
+  width: 100%;
+  margin: 15px auto;
+  border-collapse: collapse;
+  color: #443742;
+}
+thead,
+tbody {
+  display: flex;
+  justify-content: center;
+}
+thead {
+  width: 100%;
+  border-bottom: 1px solid #555;
+  border-top: 1px solid #555;
+  color: #bbb8b2;
+}
+.first-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+th,
+td {
+  padding: 10px;
+}
+tbody,
+.other-rows {
+  width: 100%;
+  color: #fff;
+}
+.contact-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+td {
+  width: 33%;
+}

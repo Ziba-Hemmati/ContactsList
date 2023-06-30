@@ -1,0 +1,27 @@
+form input,
+form button {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #bbb8b2;
+  outline: none;
+  border: 1px solid #2e2e3a;
+  color: #0d004f;
+  margin-right: 6px;
+}
+form button {
+  margin-right: 0;
+  font-weight: bold;
+}
+form button:hover {
+  cursor: pointer;
+}
+form button:active {
+  background-color: #9e9b95;
+}
+.main {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
