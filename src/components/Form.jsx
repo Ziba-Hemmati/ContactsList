@@ -40,12 +40,13 @@ const Form = ({
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Email"
         />
-        <button onClick={addContact}>
-          {" "}
+        <button onClick={addContact} type="submit">
           <i class="fa-solid fa-plus"></i> Add
         </button>
       </form>
-      <Contacts filteredContacts={filteredContacts} />
+      <Contacts
+        filteredContacts={filteredContacts}
+      />
     </div>
   );
 };
